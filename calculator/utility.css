@@ -1,0 +1,29 @@
+.transperent{
+    background: transparent;
+}
+
+.circle{   
+    border-radius: 100%;
+    border: none;
+}
+
+.white{
+    color: white;
+    font-size: 20px;
+}
+
+.shadow{
+    box-shadow : -8px -8px 15px rgba(255, 255, 255, 0.1);
+}
+
+.text-right{
+    text-align: right;
+}
+
+.bg-orange{
+    background-color: rgb(233, 155, 10);
+}
+
+.green{
+    color: greenyellow;
+}
