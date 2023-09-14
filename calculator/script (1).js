@@ -6,19 +6,19 @@ let arr = Array.from(buttons);
 
 function isInvalidExpression(expression) {
     try {
-        // Check for division by zero
+        
         if (expression.includes('/ 0')) {
             return true;
         }
         
-        // Try evaluating the expression without actually updating the result
+        
         eval(expression);
         
-        // Additional checks for invalid operations can be added here
+        
         
         return false;
     } catch (error) {
-        // An error occurred, so the expression is invalid
+        
         return true;
     }
 }
